@@ -1,0 +1,161 @@
+*   {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+body {
+  background:rgb(20, 20, 49);
+   color: rgb(253, 252, 253);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+   color: #333;
+   text-decoration: none;
+   }
+
+
+   .clr {
+      clear: both;
+   }
+
+.container {
+   margin: auto;
+     max-width: 1100px;
+    float: center;
+     padding: 0px 15px;
+     display: flex;
+     flex-direction: row; 
+     justify-content: space-between;
+            }
+
+#navbar {
+   background-color: rgb(20, 20, 49);
+   color: white;
+  top:0;
+ width:100%;
+ z-index:100;
+ position: relative;
+ padding:  0.3rem;
+      }
+
+
+      #navbar .container h1 img {
+          width: 40px;
+          height: 35px;
+          float: left;
+          margin-right: 5px; ;
+      }
+   
+#navbar a {
+   color: white;
+}
+
+#navbar h1{
+   padding-top: 5px;  
+}
+
+
+#navbar ul{
+   float: right;
+   list-style: none;
+
+}
+
+#navbar li {
+   float: left;
+} 
+
+#navbar ul a {
+   display: block;
+   padding: 15px;
+   text-align: center;
+   text-decoration: none;
+   float: right;
+}
+
+#navbar ul a:hover,
+#navbar ul a.current {
+   background: rgb(20, 20, 94);
+   color: rgb(122, 122, 255);
+}
+
+
+/* main content */
+#container2 {
+   background-color: whitesmoke;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   float: center;
+
+}
+
+
+  #container2 h1 { 
+   font-size: 4rem;
+   color:  #f7c08a;
+   background-color: rgb(20, 20, 49); 
+   border-radius: 60px;
+   padding: 0px 55px 5px 55px;
+   padding-top: 0;
+   margin-top: 30px
+}
+
+#container2 h2 {
+   font-size: 1.5rem;
+   color: rgb(20, 20, 94); 
+   text-align: center;
+   padding-top: 0;
+   margin-top:0;
+   margin-bottom: 20px;
+}
+
+
+#container2 .pro img{
+   width: 23rem;
+   height: 15rem;
+}
+
+#container2 .pro{
+   display: flex;
+   margin: auto;
+   background:  whitesmoke;
+   width: 50rem;
+   margin-bottom: 2.5rem;
+   border-color: black;
+   border: 1px rgb(20, 20, 94) solid;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#container2 .pro .pro-content{
+   border-left: 2px black solid;
+   color: black;
+   padding: 0.5rem;
+   text-align: center;
+}
+
+#container2 .pro .pro-content p a{
+   font-size: 1.5rem;
+   text-decoration-style: dotted;
+}
+
+#container2 .pro .pro-content h3{
+   color:  #f7c08a;
+   background-color: rgb(20, 20, 49);
+   padding: 0.3rem;
+}
+
+.footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.footer a{
+   color: #f7c08a;
+   display: block;
+}

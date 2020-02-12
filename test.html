@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="../css/teststyle.css">  
+   <link rel="stylesheet"  media="screen and (min-width: 1100px)" href="../css/testwidescreen.css">  
+   <link rel="stylesheet" media="screen and (max-width: 769px)" href="../css/testmobile.css">  
+   <script src="https://kit.fontawesome.com/345b2d9ae2.js" crossorigin="anonymous"></script>
+ <title> Responsive Test </title>
+</head>
+
+<body id="home">
+   
+   <nav id="navbar" class="navbar">
+        <h1 class="logo">
+            <img src= "../image/logo.png"  alt="logo" width="25px" height="31px"> 
+    <a href="index.html" > <span class="green"> TACSFON</span>  
+    </a>  LASU EPE 
+      </h1>
+      <ul>
+         <li><a href="#home"> Home</a> </li>
+         <li><a href="#what"> Our Services </a></li>
+         <li><a href="#about">Who </a> </li>
+         <li><a href="#contact"> Contact </a> </li>
+      </ul>
+   </nav>
+
+
+   <!-- Header: showcase-->
+   <header id="showcase">
+      <div class="showcase-content">
+         <h1 class="l-heading">
+           This is TACSFON!!!
+         </h1>
+         <p class="lead">The Apostolic Church Students' Fellowship of Nigeria </p>
+         <p>  <em> Where the spirit of excellence dwells </em> </p>
+             <a href="#what" class="btn"> Read more </a>
+      </div>
+   </header>
+
+   
+   <section id="what" class="bg-ligh py-1">
+      <div class="container">
+         <h2 class="m-heading center   "> <span class="green">Our</span> Services</h2>
+      <div class="items">
+         <div class="item">
+            <img src="../image/bible.png" alt="img-1">
+            <div class="txt">
+               <h3> Tuesday </h3>
+               <h2 class="green"> BIBLE TEACHING </h2>
+               <H4> Time: 6:30pm - 8:30pm</H4>
+            </div>
+         </div>
+         
+         <div class="item">
+               <img src="../image/prayer.jpg" alt="img-2">
+               <div class="txt">
+                  <h3> Wednesday </h3>
+                  <h2 class="green"> PRAYER CELL </h2>
+                  <H4> Time: 6pm - 7pm</H4>
+               </div>
+            </div>
+
+            <div class="item">
+                  <img src="../image/study.jpg" alt="img-1">
+                  <div class="txt">
+                     <h3> Tuesday </h3>
+                     <h2 class="green"> BIBLE STUDY </h2>
+                     <H4> Time: 7pm - 9pm</H4>
+                  </div>
+               </div>
+            </div>
+               <h4 class=" center   "> <span class="green">Venue:</span> <div class="clr"></div> Chapel 1, beside the road, under the tree (respectively)</h4>
+      
+      </div>
+   </section>
+
+   <section id="about">
+         <div class="about-img"> </div>
+         <div class="about-text bg-dark p-2">
+            <h2 class="m-heading"> 
+         <span class="green"> Who</span> We are</h2>
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem quae consequatur voluptatem cupiditate soluta magnam dolor doloribus reiciendis ut.</p>
+      <h3> Our Excos</h3>
+      <ul class="list">
+         <li> President: Sister Tomisin</li>
+         <li> Ex-officio: Bro Lanre </li>
+         <li> Prayer cord: Bro tiseun</li>
+         <li> Gen sec: Bro Samsax </li>
+         <li> Fin Sec: Sister Simi</li>
+         <li> Brother's cord: Bro Lamie</li>
+      </ul>
+      </div>
+   </section>
+
+   <section id="clients" class="py-1">
+      <div class="container">
+         <h2 class="m-heading center">
+            <span class="green">Other</span>
+            Fellowships
+         </h2>
+         <div class="items py-1">
+            <ul class="item">
+               <li> CACYOF</li>
+               <li>  R.C.F </li>
+               <li> MFMCF</li>
+               <li>B.S.F</li>
+               <li> A.S.F</li>
+               <li> D.L.C.F</li>
+               <li> J.F.M</li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+
+   <section id="contact">
+      <div class="contact-form bg-primary p-2">
+         <h2 class="m-heading"> Contact Us</h2>
+         <p> Please use the form below to contact us</p>
+         <form>
+            <div class="form-group">
+               <label for="name"> Name</label>
+               <input type="text" name="name" id="name" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                  <label for="email"> Email</label>
+                  <input type="email" name="email" id="email" placeholder="Enter Email">
+               </div>
+               <div class="form-group">
+                     <label for="phone"> Phone Number</label>
+                     <input type="text" name="phone" id="phone" placeholder="Enter Phone No">
+                  </div>
+                  <div class="form-group">
+                        <label for="message"> Message</label>
+                        <textarea name="Message"  placeholder="Enter Message"> </textarea>
+                     </div>
+                     <input type="submit" value="send" class="btn btn-dark" >
+         </form>
+
+      </div>
+      <div class="map">
+  
+         <script
+         src="https://code.jquery.com/jquery-3.4.1.min.js"
+         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+         crossorigin="anonymous"></script>
+
+      <script src="../javascript/main.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHWXgZgaUvrIGPZO0c3qpFZU0nu4WOOEk&callback=initMap"  
+    async defer></script>
+   </div>
+   </section>
+
+
+   <footer id="main-footer" class="bg-dark center py-1">
+      <div class="container">
+         <p> Copyright &copy; 2019, TACSFON LASU EPE CAMPUS, All rights Reserved</p>
+      </div>
+
+   </footer>
+</body>
+</html>
+

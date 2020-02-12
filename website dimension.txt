@@ -1,0 +1,6 @@
+Screen width	Smallest screen height	In use worldwide
+1024 px	768 px	3%
+1280 px	800 px	11%
+1360 px	768 px	2%
+1366 px	768 px	35%
+5 more rows
