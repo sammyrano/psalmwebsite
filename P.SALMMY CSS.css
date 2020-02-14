@@ -246,6 +246,6 @@ a{
    margin: auto;
    max-width: 1100px;
    padding: 2rem;
-   padding-left: 5rem;
-   padding-left: 5rem;
+   padding-left: 4rem;
+   padding-right: 4rem;
 }
