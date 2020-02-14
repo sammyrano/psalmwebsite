@@ -141,14 +141,14 @@ a{
     }
 
     .container2  p{
-      font-size: 2rem;
+      font-size: 1.7rem;
       color: whitesmoke;
       text-align: center;
   }
 
   .container2  h4{
      font-style: italic;
-     font-size: 0.8rem;
+     font-size: 0.6rem;
 }
 
     .container2 .note{
@@ -245,5 +245,7 @@ a{
    grid-gap: 5rem;
    margin: auto;
    max-width: 1100px;
-   padding-top: 2rem;
+   padding: 2rem;
+   padding-left: 5rem;
+   padding-left: 5rem;
 }
