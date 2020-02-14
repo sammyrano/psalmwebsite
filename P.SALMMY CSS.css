@@ -159,7 +159,7 @@ a{
     color:  #f7c08a;
   position: center;
     margin: auto;
-    height: 1700px;
+    display: grid;
 }
 
 .left{
