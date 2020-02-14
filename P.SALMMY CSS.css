@@ -137,7 +137,7 @@ a{
         font-size: 35px;      
         padding: 20px;
         color: rgb(17, 17, 70);
-        background-color: rgb(200, 200, 241);
+        background-color: #f7c08a;  
     }
 
     .container2  p{
@@ -165,13 +165,13 @@ a{
 
 .left{
    float: left;
-   margin-left: 200px;
+   margin-left: 250px;
    padding: 20px;
 }
 
 .right {
    float: right;
-   margin-right: 200px;
+   margin-right: 250px;
    padding: 20px;
 }
 
