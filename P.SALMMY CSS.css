@@ -134,25 +134,26 @@ a{
     
     .container2  .title h2{
         text-align: center;
-        font-size: 35px;      
+        font-size: 1.7rem;      
         padding: 20px;
         color: rgb(17, 17, 70);
         background-color: #f7c08a;  
     }
 
     .container2  p{
-      font-size: 25px;
+      font-size: 2rem;
       color: whitesmoke;
       text-align: center;
   }
 
   .container2  h4{
      font-style: italic;
+     font-size: 0.8rem;
 }
 
     .container2 .note{
       color: rgb(17, 17, 70);
-      font-size: 15px;
+      font-size: 1.2rem;
     }
 
 #container2 {
